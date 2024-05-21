@@ -1,0 +1,79 @@
+{
+
+  "navBar" : {
+
+    "home": "Home",
+    "projects": "Projects",
+    "about":"About",
+    "contact": "Contact",
+    "DownloadCV": "Download CV"
+
+  }
+  ,
+
+  "banner" : {
+
+    "Welcome to my Portfolio" : "Welcome to my Portfolio",
+    "Hi, I’m Jose Front-End Developer":"Front-End Developer",
+    "jose":"Hi, I’m Jose "
+
+  }
+  ,
+
+
+  "skills" :{
+    "skills" : "skills",
+    "text-skills" : "Web development expert with strong skills in HTML, CSS, JavaScript and frameworks like React and Angular. Committed to excellence in problem solving and delivering quality solutions"
+  }
+  ,
+  "project":{
+    "projects": "Projects"
+  }
+  ,
+  "jose":{
+    "Who is this Jose?" : "Who is Jose?",
+    "text-jose":"I am a Frontend Developer specializing in designing and developing attractive and functional user interfaces. I am passionate about creating captivating digital experiences that enhance user-system interaction. I constantly strive to perfect my technical and creative skills to deliver high-quality solutions. I am committed to continuous learning and adapting to new technologies, always seeking challenges that allow me to grow professionally and contribute to the success of the projects I am involved in.",
+    "lets-talk" : "let's talk"
+
+  }
+  ,
+  "footer": {
+    "Contact": "Contact me!",
+    "name": "Name:",
+    "email": "Email:",
+    "Subject": "Subject:",
+    "Description": "Description:",
+    "send": "Send",
+    "d-name": "Enter your name here",
+    "d-email": "Enter your email here",
+    "d-subject": "Enter the subject here",
+    "d-d": "Enter the description here"
+}
+,
+
+  "job": {
+    "estudios": "Educational Background",
+    "titulo": "Technologist in Software Analysis and Development",
+    "abril": "April",
+    "junio": "June",
+    "experiencia": "Work Experience",
+    "titulojob": "Software Developer",
+    "octubre": "October"
+  }
+  ,
+  "projects": {
+    "title1": "Inventory System",
+    "description1": "I developed an Inventory System, a PHP application for efficient inventory management. This system allows for easy and effective recording, tracking, and managing of products. With an intuitive interface and robust functionalities, Inventory System facilitates updating stock levels, viewing inventory movements, and generating detailed reports. Ideal for companies looking to optimize their inventory control processes and ensure smooth and organized operations.",
+    "title2": "Risk Map",
+    "description2": "I developed an interactive map that revolutionized occupational safety and health management (SISO). By providing a real-time visualization of risks present in the company's activities, I facilitated proactive prevention and informed decision-making to mitigate risks. The implementation of technologies such as App Script and Bootstrap ensured a smooth and accessible user experience.",
+    "title3": "Order System",
+    "description3": "I developed a basic order system using Laravel, which allows users to create, edit, and delete orders, as well as view completed orders. This system optimizes order management, providing a centralized and easy-to-use platform for handling orders. The implementation of Bootstrap for an intuitive interface ensures a smooth user experience. This simplified solution improves operational efficiency and facilitates clear and precise control over the order lifecycle."
+  }
+  ,
+  "i": {
+    "i": "more information"
+  }
+
+}
+  
+  

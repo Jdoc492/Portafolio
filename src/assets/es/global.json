@@ -1,0 +1,70 @@
+{
+  "navBar": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "DownloadCV": "Descargar CV"
+  },
+  "banner": {
+    "Welcome to my Portfolio": "Bienvenido a mi Portafolio",
+    "Hi, I’m Jose Front-End Developer": "Desarrollador Front-End",
+    "jose": "Hola, soy Jose "
+  },
+  "skills": {
+    "skills": "Habilidades",
+    "text-skills": "Experto en desarrollo web con sólidas habilidades en HTML, CSS, JavaScript y frameworks como React y Angular. Comprometido con la excelencia en la resolución de problemas y la entrega de soluciones de alta calidad."
+  },
+  "project": {
+    "projects": "Proyectos"
+  },
+  "jose": {
+    "Who is this Jose?": "¿Quién es Jose?",
+    "text-jose": "Soy un Desarrollador Frontend especializado en el diseño y desarrollo de interfaces de usuario atractivas y funcionales. Me apasiona crear experiencias digitales cautivadoras que mejoren la interacción usuario-sistema. Constantemente busco perfeccionar mis habilidades técnicas y creativas para proporcionar soluciones de alta calidad. Estoy comprometido con el aprendizaje continuo y la adaptación a nuevas tecnologías, siempre en busca de desafíos que me permitan crecer profesionalmente y contribuir al éxito de los proyectos en los que participo.",
+    "lets-talk": "¡Hablemos!"
+  },
+  "footer": {
+    "Contact": "¡Contáctame!",
+    "name": "Nombre:",
+    "email": "Correo electrónico:",
+    "Subject": "Asunto:",
+    "Description": "Descripción:",
+    "send": "Enviar",
+    "d-name": "Ingresa tu nombre aquí",
+    "d-email": "Ingresa tu correo electrónico aquí",
+    "d-subject": "Ingresa el asunto aquí",
+    "d-d": "Ingresa la descripción aquí"
+  }
+  ,
+  
+  "job": {
+    "estudios": "Estudios Realizados",
+    "titulo": "Tecnólogo en Análisis y Desarrollo de Software",
+    "abril": "Abril",
+    "junio": "Junio",
+    "experiencia": "Experiencia Laboral",
+    "titulojob": "Desarrollador de Software",
+    "octubre": "Octubre"
+
+
+
+  }
+  ,
+  "projects": {
+    "title1": "Inventory System",
+    "description1": "Diseñé Inventory System, una aplicación en PHP para la gestión eficiente del inventario. Este sistema permite registrar, rastrear y administrar productos de manera sencilla y efectiva. Con una interfaz intuitiva y funcionalidades robustas, Inventory System facilita la actualización de niveles de stock, la visualización de movimientos de inventario y la generación de informes detallados. Ideal para empresas que buscan optimizar sus procesos de control de inventarios y asegurar una operación fluida y organizada.",
+    "title2": "Mapa de Riesgos",
+    "description2": "Desarrollé un mapa interactivo que revolucionó la gestión de la seguridad y salud ocupacional (SISO). Al proporcionar una visualización en tiempo real de los riesgos presentes en las actividades de la empresa, facilité una prevención proactiva y decisiones informadas para mitigar los riesgos. La implementación de tecnologías como App Script y Bootstrap garantizó una experiencia fluida y accesible para los usuarios.",
+    "title3": "Sistema de Pedidos",
+    "description3": "Desarrollé un sistema de pedidos básico utilizando Laravel, que permite a los usuarios crear, editar y eliminar pedidos, así como visualizar los pedidos realizados. Este sistema optimiza la gestión de pedidos, proporcionando una plataforma centralizada y fácil de usar para manejar las órdenes. La implementación de Bootstrap para una interfaz intuitiva garantiza una experiencia fluida para los usuarios. Esta solución simplificada mejora la eficiencia operativa y facilita un control claro y preciso sobre el ciclo de vida de los pedidos."
+  }
+  ,
+  "i": {
+    "i": "más información"
+  }
+  
+
+}
+
+
+  
