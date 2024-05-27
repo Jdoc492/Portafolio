@@ -28,7 +28,8 @@ export const Banner = () => {
             <span className="tagline">{t("banner.Welcome to my Portfolio")}</span>
               <h1>
                 {t("banner.jose")}
-                <span className="wrap">{t("banner.Hi, I’m Jose Front-End Developer")}</span>
+                <br />
+                <span className="wrap jkl" >{t("banner.Hi, I’m Jose Front-End Developer")}</span>
               </h1>
             </Col>
             <Col xs={12} md={6} xl={5}>
