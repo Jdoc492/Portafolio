@@ -41,6 +41,7 @@ export const JobExperiencie = () => {
                             <div className='JobSkills'>PHP</div>
                             <div className='JobSkills'>Angular</div>
                             <div className='JobSkills'>Laravel</div>
+                            <div className='JobSkills'>ApiRest</div>
                             <div className='JobSkills'>Trello</div>
                             <div className='JobSkills'>Git</div>
                             <div className='JobSkills'>Scrum</div>

@@ -8,7 +8,7 @@
   },
   "banner": {
     "Welcome to my Portfolio": "Bienvenido a mi Portafolio",
-    "Hi, I’m Jose Front-End Developer":"<Web Developer/>",
+    "Hi, I’m Jose Front-End Developer":"<Full Stack Developer/>",
     "jose": "Hola, soy Jose "
   },
   "skills": {
@@ -20,7 +20,7 @@
   },
   "jose": {
     "Who is this Jose?": "¿Quién es Jose?",
-    "text-jose": "Soy un Desarrollador Frontend especializado en el diseño y desarrollo de interfaces de usuario atractivas y funcionales. Me apasiona crear experiencias digitales cautivadoras que mejoren la interacción usuario-sistema. Constantemente busco perfeccionar mis habilidades técnicas y creativas para proporcionar soluciones de alta calidad. Estoy comprometido con el aprendizaje continuo y la adaptación a nuevas tecnologías, siempre en busca de desafíos que me permitan crecer profesionalmente y contribuir al éxito de los proyectos en los que participo.",
+    "text-jose": "Desarrollador Full Stack con experiencia en la creación de aplicaciones web robustas y funcionales. Especializado en HTML, CSS, JavaScript, React, PHP, Laravel, MySQL y ApiRestful. Destacado en la programación tanto del lado del cliente como del servidor, y en el diseño de experiencias de usuario optimizadas (UI/UX). Comprometido con la mejora continua y la adopción de las últimas tecnologías y mejores prácticas del sector para garantizar productos de alta calidad y optimizar la interacción usuario-sistem.",
     "lets-talk": "¡Hablemos!"
   },
   "footer": {
