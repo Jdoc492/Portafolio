@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import cvPDF from "../assets/JoseOchoaJDOC.pdf"; // Ruta al archivo PDF
+import cvPDF from "../assets/jd.pdf"; // Ruta al archivo PDF
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { useTranslation } from "react-i18next";
