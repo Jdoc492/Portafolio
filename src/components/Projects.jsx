@@ -21,14 +21,6 @@ export const Projects = () => {
         urlDestino: "https://github.com/Jdoc492/Inventario-proyecto-SENA"
     },
     {
-      title: t("projects.title2"),
-      description:t("projects.description2") ,
-        technologies: [ "App Script", "HTML","CSS","Bootstrap"],
-        imgUrl: projImg4,
-        urlDestino: "https://script.google.com/macros/s/AKfycbybyQlLaU5JdfFuRKpHFZOV5omjwKp08fbZP2DZagzwLrIRjP_8ZWWr1SIzKeBbXXzQQA/exec"
-    }
-    ,
-    {
       title: t("projects.title3"),
       description:t("projects.description3") ,
       technologies: [ "Laravel","PHP","Javascript", "HTML","CSS","Bootstrap"],
