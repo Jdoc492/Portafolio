@@ -27,7 +27,7 @@ function App() {
     <>
       <idiomaContex.Provider value={t}>
         <NavBar />
-        <Banner />
+        
         <BannerJose />
         <Skills />
         <JobExperiencie/>

@@ -22,7 +22,7 @@ export const BannerJose = () =>{
     return(
         <>
         <section className="bannerj" >
-            <Container>
+            <Container className="mt-5">
                 <Row className="align-items-center" id="yo">
                                         <Col  xs={12} md={6} xl={5}>
                         <Row><img src={logo} alt="LOGO" style={{ borderRadius: '50%' }} /></Row>

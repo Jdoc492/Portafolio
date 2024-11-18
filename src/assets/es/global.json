@@ -19,9 +19,10 @@
     "projects": "Proyectos"
   },
   "jose": {
-    "Who is this Jose?": "¿Quién es Jose?",
-    "text-jose": "Desarrollador Full Stack con experiencia en la creación de aplicaciones web robustas y funcionales. Especializado en HTML, CSS, JavaScript, React, PHP, Laravel, MySQL y ApiRestful. Destacado en la programación tanto del lado del cliente como del servidor, y en el diseño de experiencias de usuario optimizadas (UI/UX). Comprometido con la mejora continua y la adopción de las últimas tecnologías y mejores prácticas del sector para garantizar productos de alta calidad y optimizar la interacción usuario-sistem.",
-    "lets-talk": "¡Hablemos!"
+"Who is this Jose?": "¿Quién es Jose? 👋",
+"text-jose": "Soy un apasionado del desarrollo web, siempre en la búsqueda de soluciones dinámicas y funcionales que mezclen lo último en tecnología con innovación. Me especializo en React, JavaScript y en crear interfaces responsivas, todo con el objetivo de optimizar procesos y brindar la mejor experiencia al usuario. 🚀",
+"lets-talk": "¡Hablemos!😊"
+
   },
   "footer": {
     "Contact": "¡Contáctame!",
@@ -57,6 +58,12 @@
     "description2": "Desarrollé un mapa interactivo que revolucionó la gestión de la seguridad y salud ocupacional (SISO). Al proporcionar una visualización en tiempo real de los riesgos presentes en las actividades de la empresa, facilité una prevención proactiva y decisiones informadas para mitigar los riesgos. La implementación de tecnologías como App Script y Bootstrap garantizó una experiencia fluida y accesible para los usuarios.",
     "title3": "Sistema de Pedidos",
     "description3": "Desarrollé un sistema de pedidos básico utilizando Laravel, que permite a los usuarios crear, editar y eliminar pedidos, así como visualizar los pedidos realizados. Este sistema optimiza la gestión de pedidos, proporcionando una plataforma centralizada y fácil de usar para manejar las órdenes. La implementación de Bootstrap para una interfaz intuitiva garantiza una experiencia fluida para los usuarios. Esta solución simplificada mejora la eficiencia operativa y facilita un control claro y preciso sobre el ciclo de vida de los pedidos."
+    ,
+    "title4": "Sitio Web Inmobiliario",
+    "description4": "Este proyecto consiste en el desarrollo de un sitio web para una inmobiliaria, construido con React en el frontend y Node.js en el backend. Me encargué de la parte frontend, diseñando e implementando una interfaz de usuario interactiva y funcional que permite a los usuarios navegar fácilmente por las propiedades disponibles, filtrar resultados y contactar a los agentes inmobiliarios. Utilicé herramientas como CSS, Bootstrap, y React Router para crear una experiencia de usuario fluida y responsiva, optimizada para dispositivos móviles y de escritorio."
+    ,
+    "title5": "MET - Panel de Análisis de Variables de Turbidez del Agua",
+    "description5": "El proyecto MET es un panel interactivo desarrollado en React con Firebase como base de datos, diseñado para analizar y visualizar las variables relacionadas con la turbidez del agua. Este panel permite a los usuarios monitorear en tiempo real los datos de turbidez, mostrar gráficos interactivos y generar informes sobre las condiciones del agua. Utilicé herramientas de gráficos avanzados, como Chart.js y D3.js, para representar los datos de manera clara y comprensible. Además, la aplicación está optimizada para ser utilizada de forma eficiente en dispositivos móviles y de escritorio, garantizando accesibilidad en cualquier entorno."
   }
   ,
   "i": {

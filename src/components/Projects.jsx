@@ -3,7 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/inventory.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/sp.jpg";
-import projImg4 from "../assets/img/dos.jpg";
+import projImg4 from "../assets/img/proyecto4.png";
+import projImg5 from "../assets/img/proyectos5.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,6 +14,14 @@ export const Projects = () => {
 
   const { t, i18n } = useTranslation("global");
   const projects = [
+    
+    {
+      title: t("projects.title4"),
+      description:t("projects.description4") ,
+      technologies: [ "Node","React","Javascript", "HTML","CSS","Bootstrap"],
+      imgUrl: projImg4,
+      urlDestino: "https://invermaxinmobiliaria.co/"
+  },
     {
         title: t("projects.title1"),
         description:t("projects.description1") ,
@@ -21,12 +30,20 @@ export const Projects = () => {
         urlDestino: "https://github.com/Jdoc492/Inventario-proyecto-SENA"
     },
     {
+      title: t("projects.title5"),
+      description:t("projects.description5") ,
+      technologies: [ "firebase","React","Javascript", "HTML","CSS","Bootstrap","librerias de Graficas"],
+      imgUrl: projImg5,
+      urlDestino: "https://github.com/Jdoc492/MET"
+  },
+    {
       title: t("projects.title3"),
       description:t("projects.description3") ,
       technologies: [ "Laravel","PHP","Javascript", "HTML","CSS","Bootstrap"],
       imgUrl: projImg3,
       urlDestino: "https://github.com/Jdoc492/Sistema-de-Pedidos"
   }
+
 ];
 
 

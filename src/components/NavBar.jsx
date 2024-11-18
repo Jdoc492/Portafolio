@@ -45,7 +45,7 @@ export const NavBar = () => {
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="#yo">
                     <h2 style={{ color: "white" }}>JDOC</h2>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" >
@@ -53,7 +53,7 @@ export const NavBar = () => {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>{t("navBar.home")}</Nav.Link>
+                        <Nav.Link href="#yo" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>{t("navBar.home")}</Nav.Link>
                         <Nav.Link href="#skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("skills")}>Skills</Nav.Link>
                         <Nav.Link href="#projects" className={activeLink === "projects" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("projects")}>{t("navBar.projects")}</Nav.Link>
                         <Nav.Link href="#yo" className={activeLink === "yo" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("projects")}>{t("navBar.about")}</Nav.Link>

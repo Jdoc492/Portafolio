@@ -25,6 +25,7 @@ export const ProjectCard = ({ title, description, imgUrl, urlDestino, technologi
                 </div>
                 <a href={urlDestino} id="btndestino">{t("i.i")}</a>
             </Col>
+            
         </Row>
     )
 }

@@ -31,8 +31,10 @@
   }
   ,
   "jose":{
-    "Who is this Jose?" : "Who is Jose?",
-    "text-jose":"Full Stack Developer with experience in creating robust and functional web applications. Specialized in HTML, CSS, JavaScript, React, PHP, Laravel, MySQL, and Restful APIs. Proficient in both client-side and server-side programming, with a focus on designing optimized user experiences (UI/UX). Committed to continuous improvement and adopting the latest industry technologies and best practices to ensure high-quality products and optimize user-system interaction."
+"Who is this Jose?": "Who is Jose? 👋",
+"text-jose": "I'm passionate about web development, always looking for dynamic and functional solutions that blend the latest technology with innovation. I specialize in React, JavaScript, and creating responsive interfaces, all aimed at optimizing processes and providing the best user experience. 🚀",
+"lets-talk": "Let's talk! 😊"
+
   }
   ,
   "footer": {
@@ -66,6 +68,12 @@
     "description2": "I developed an interactive map that revolutionized occupational safety and health management (SISO). By providing a real-time visualization of risks present in the company's activities, I facilitated proactive prevention and informed decision-making to mitigate risks. The implementation of technologies such as App Script and Bootstrap ensured a smooth and accessible user experience.",
     "title3": "Order System",
     "description3": "I developed a basic order system using Laravel, which allows users to create, edit, and delete orders, as well as view completed orders. This system optimizes order management, providing a centralized and easy-to-use platform for handling orders. The implementation of Bootstrap for an intuitive interface ensures a smooth user experience. This simplified solution improves operational efficiency and facilitates clear and precise control over the order lifecycle."
+    ,
+    "title4": "Real Estate Website",
+    "description4": "This project involves developing a website for a real estate company, built with React on the frontend and Node.js on the backend. I was responsible for the frontend, designing and implementing an interactive and functional user interface that allows users to easily browse available properties, filter results, and contact real estate agents. I used tools like CSS, Bootstrap, and React Router to create a smooth and responsive user experience, optimized for both mobile and desktop devices."
+    ,
+    "title5": "MET - Water Turbidity Variables Analysis Dashboard",
+    "description5": "The MET project is an interactive dashboard developed in React with Firebase as the backend, designed to analyze and visualize the variables related to water turbidity. This dashboard allows users to monitor real-time turbidity data, display interactive charts, and generate reports on water conditions. I used advanced charting tools like Chart.js and D3.js to present the data in a clear and understandable way. Additionally, the application is optimized for efficient use on both mobile and desktop devices, ensuring accessibility in any environment."
   }
   ,
   "i": {
