@@ -1,29 +1,28 @@
-import { Container, Row, Col } from "react-bootstrap";
-import { FaLinkedin } from 'react-icons/fa';
-import { FaGithub } from 'react-icons/fa';
+import { useTranslation } from "react-i18next";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { links } from "../links";
 
 export const Footer = () => {
+  const { t } = useTranslation("global");
+
   return (
     <footer className="footer">
-      <Container>
-        <Row className="align-items-center">
-          <p></p>
-          <Col size={12} sm={6}>
-          <h2 style={{color:"white"}}>JDOC</h2>
-          </Col>
-          <Col size={12} sm={6} className="text-center text-sm-end">
-          <div className="social-icon">
-          <a href="https://www.linkedin.com/in/josé-ochoa-cairoza-8b7003244" style={{ borderRadius: '50%' }}>
-          <FaLinkedin color="#fff" size={32} />
-          </a>
-          <a href="https://github.com/Jdoc492">
-        <FaGithub color="#fff" size={32} />
+      <div className="container footer__inner">
+        <a href="#yo" className="nav__brand">
+          JDOC<span>.</span>
         </a>
-</div>
-            <p>Copyright 2024. All Rights Reserved</p>
-          </Col>
-        </Row>
-      </Container>
+        <p>
+          © {new Date().getFullYear()} · {t("footer.made")}
+        </p>
+        <div className="socials socials--sm">
+          <a href={links.github} target="_blank" rel="noreferrer" aria-label="GitHub">
+            <FaGithub />
+          </a>
+          <a href={links.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <FaLinkedin />
+          </a>
+        </div>
+      </div>
     </footer>
-  )
-}
+  );
+};

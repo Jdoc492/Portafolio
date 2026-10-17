@@ -1,77 +1,172 @@
 {
-  "navBar": {
-    "home": "Inicio",
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Trayectoria",
+    "skills": "Habilidades",
     "projects": "Proyectos",
-    "about": "Acerca de",
     "contact": "Contacto",
-    "DownloadCV": "Descargar CV"
+    "cv": "Descargar CV"
   },
-  "banner": {
-    "Welcome to my Portfolio": "Bienvenido a mi Portafolio",
-    "Hi, I’m Jose Front-End Developer":"<Full Stack Developer/>",
-    "jose": "Hola, soy Jose "
+  "hero": {
+    "hello": "Hola, soy",
+    "role": "Desarrollador Full Stack",
+    "pitch": "Cofundador de Scale Labs y desarrollador Full Stack en la Universidad de la Costa. Construyo plataformas web completas, desde la API hasta la interfaz, con React, Laravel y Django, y automatizaciones que optimizan procesos reales.",
+    "cta": "Ver proyectos",
+    "talk": "Hablemos",
+    "location": "Barranquilla, Colombia"
+  },
+  "about": {
+    "eyebrow": "Sobre mí",
+    "title": "Desarrollo con propósito",
+    "p1": "Soy desarrollador Full Stack con más de 3 años de experiencia, Tecnólogo en Análisis y Desarrollo de Software del SENA y actualmente estudio Ingeniería de Sistemas en la UNAD. Hoy soy cofundador de Scale Labs, donde construimos software a medida, y desarrollador Full Stack en la Universidad de la Costa CUC.",
+    "p2": "He trabajado en todo el ciclo de desarrollo: diseño de interfaces en Figma, frontends en React y Angular, backends en PHP/Laravel y Python/Django, bases de datos MySQL y Firebase, y automatización con Apps Script y AppSheet.",
+    "stats": [
+      {
+        "value": "3+",
+        "label": "Años de experiencia"
+      },
+      {
+        "value": "10+",
+        "label": "Proyectos en GitHub"
+      },
+      {
+        "value": "20+",
+        "label": "Tecnologías"
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Trayectoria",
+    "title": "Experiencia y estudios",
+    "items": [
+      {
+        "type": "work",
+        "role": "Co-Founder & Developer",
+        "org": "Scale Labs · Remoto",
+        "date": "Ene 2025 — Actualidad",
+        "current": true,
+        "desc": "Cofundador de una empresa de desarrollo de software a medida. Diseñamos, construimos y escalamos plataformas, sistemas de gestión, automatizaciones e integraciones con IA para empresas que necesitan crecer sin perder lo que ya funciona.",
+        "tags": []
+      },
+      {
+        "type": "work",
+        "role": "Desarrollador Full Stack",
+        "org": "Universidad de la Costa CUC · Barranquilla",
+        "date": "Dic 2024 — Actualidad",
+        "current": true,
+        "desc": "Desarrollo Full Stack de aplicaciones y sistemas para la universidad, desde el backend y las APIs hasta la interfaz de usuario.",
+        "tags": []
+      },
+      {
+        "type": "work",
+        "role": "Frontend Developer Freelancer",
+        "org": "Autónomo · Remoto",
+        "date": "Oct 2024 — Feb 2025",
+        "current": false,
+        "desc": "Interfaces dinámicas y responsivas con React, componentes reutilizables, optimización de rendimiento e integración de APIs REST, trabajando en equipos Scrum a partir de diseños UI/UX. Último proyecto: sitio web de Invermax Inmobiliaria.",
+        "tags": [
+          "React",
+          "Bootstrap",
+          "CSS",
+          "API REST",
+          "Scrum",
+          "Figma",
+          "Git"
+        ]
+      },
+      {
+        "type": "work",
+        "role": "Desarrollador de Software",
+        "org": "Nutresa · Pastas Comarrico S.A.S · Barranquilla",
+        "date": "Oct 2023 — Abr 2024",
+        "current": false,
+        "desc": "Análisis de requisitos, diseño de interfaces, desarrollo frontend y pruebas en equipos multidisciplinarios. Construí un mapa interactivo de riesgos para Seguridad y Salud en el Trabajo con visualización en tiempo real, y un planificador de actividades de contratistas que mejoró el seguimiento y la asignación de recursos.",
+        "tags": [
+          "Apps Script",
+          "AppSheet",
+          "JavaScript",
+          "React",
+          "HTML",
+          "CSS",
+          "Bootstrap"
+        ]
+      },
+      {
+        "type": "study",
+        "role": "Ingeniería de Sistemas",
+        "org": "Universidad Nacional Abierta y a Distancia — UNAD",
+        "date": "2025 — 2027 · En curso",
+        "current": true,
+        "desc": "Pregrado en Ingeniería de Sistemas, complementando la experiencia profesional con bases sólidas en ingeniería de software, arquitectura y gestión de proyectos.",
+        "tags": []
+      },
+      {
+        "type": "study",
+        "role": "Tecnólogo en Análisis y Desarrollo de Software",
+        "org": "Servicio Nacional de Aprendizaje — SENA",
+        "date": "Abr 2022 — Jun 2024",
+        "current": false,
+        "desc": "Formación en ingeniería de software, bases de datos, desarrollo web y móvil. Proyectos académicos de inventario, e-commerce y un clon de Nequi en Kotlin.",
+        "tags": [
+          "PHP",
+          "MySQL",
+          "Kotlin",
+          "JavaScript",
+          "UML"
+        ]
+      }
+    ],
+    "now": "Actualidad"
   },
   "skills": {
-    "skills": "Habilidades",
-    "text-skills": "Experto en desarrollo web con sólidas habilidades en HTML, CSS, JavaScript y frameworks como React y Angular. Comprometido con la excelencia en la resolución de problemas y la entrega de soluciones de alta calidad."
+    "eyebrow": "Habilidades",
+    "title": "Mi stack tecnológico",
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "data": "Datos y móvil",
+      "tools": "Herramientas y metodologías"
+    }
   },
-  "project": {
-    "projects": "Proyectos"
+  "projects": {
+    "eyebrow": "Portafolio",
+    "title": "Proyectos destacados",
+    "code": "Código",
+    "live": "Ver sitio",
+    "more": "Ver todos mis repositorios en GitHub",
+    "items": [
+      {
+        "title": "Sitio Web Inmobiliario",
+        "desc": "Sitio para una inmobiliaria con catálogo de propiedades, filtros y contacto con agentes. Me encargué del frontend: interfaz interactiva, rutas y diseño responsivo."
+      },
+      {
+        "title": "MET — Panel de turbidez del agua",
+        "desc": "Dashboard en tiempo real para analizar variables de turbidez del agua, con gráficos interactivos y reportes sobre las condiciones del agua."
+      },
+      {
+        "title": "Inventory System",
+        "desc": "Aplicación para registrar, rastrear y administrar productos: niveles de stock, movimientos de inventario e informes detallados."
+      },
+      {
+        "title": "Sistema de Pedidos",
+        "desc": "Gestión del ciclo de vida de pedidos: crear, editar, eliminar y consultar órdenes desde una plataforma centralizada."
+      }
+    ]
   },
-  "jose": {
-"Who is this Jose?": "¿Quién es Jose? 👋",
-"text-jose": "Soy un apasionado del desarrollo web, siempre en la búsqueda de soluciones dinámicas y funcionales que mezclen lo último en tecnología con innovación. Me especializo en React, JavaScript y en crear interfaces responsivas, todo con el objetivo de optimizar procesos y brindar la mejor experiencia al usuario. 🚀",
-"lets-talk": "¡Hablemos!😊"
-
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "¿Tienes un proyecto en mente?",
+    "text": "Estoy abierto a nuevas oportunidades laborales y colaboraciones. Escríbeme y te respondo lo antes posible.",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar mensaje",
+    "sending": "Enviando…",
+    "ok": "¡Mensaje enviado! Te responderé pronto.",
+    "error": "No se pudo enviar. Escríbeme directamente al correo."
   },
   "footer": {
-    "Contact": "¡Contáctame!",
-    "name": "Nombre:",
-    "email": "Correo electrónico:",
-    "Subject": "Asunto:",
-    "Description": "Descripción:",
-    "send": "Enviar",
-    "d-name": "Ingresa tu nombre aquí",
-    "d-email": "Ingresa tu correo electrónico aquí",
-    "d-subject": "Ingresa el asunto aquí",
-    "d-d": "Ingresa la descripción aquí"
+    "made": "Diseñado y desarrollado por Jose Ochoa"
   }
-  ,
-  
-  "job": {
-    "estudios": "Estudios Realizados",
-    "titulo": "Tecnólogo en Análisis y Desarrollo de Software",
-    "abril": "Abril",
-    "junio": "Junio",
-    "experiencia": "Experiencia Laboral",
-    "titulojob": "Desarrollador de Software",
-    "octubre": "Octubre"
-
-
-
-  }
-  ,
-  "projects": {
-    "title1": "Inventory System",
-    "description1": "Diseñé Inventory System, una aplicación en PHP para la gestión eficiente del inventario. Este sistema permite registrar, rastrear y administrar productos de manera sencilla y efectiva. Con una interfaz intuitiva y funcionalidades robustas, Inventory System facilita la actualización de niveles de stock, la visualización de movimientos de inventario y la generación de informes detallados. Ideal para empresas que buscan optimizar sus procesos de control de inventarios y asegurar una operación fluida y organizada.",
-    "title2": "Mapa de Riesgos",
-    "description2": "Desarrollé un mapa interactivo que revolucionó la gestión de la seguridad y salud ocupacional (SISO). Al proporcionar una visualización en tiempo real de los riesgos presentes en las actividades de la empresa, facilité una prevención proactiva y decisiones informadas para mitigar los riesgos. La implementación de tecnologías como App Script y Bootstrap garantizó una experiencia fluida y accesible para los usuarios.",
-    "title3": "Sistema de Pedidos",
-    "description3": "Desarrollé un sistema de pedidos básico utilizando Laravel, que permite a los usuarios crear, editar y eliminar pedidos, así como visualizar los pedidos realizados. Este sistema optimiza la gestión de pedidos, proporcionando una plataforma centralizada y fácil de usar para manejar las órdenes. La implementación de Bootstrap para una interfaz intuitiva garantiza una experiencia fluida para los usuarios. Esta solución simplificada mejora la eficiencia operativa y facilita un control claro y preciso sobre el ciclo de vida de los pedidos."
-    ,
-    "title4": "Sitio Web Inmobiliario",
-    "description4": "Este proyecto consiste en el desarrollo de un sitio web para una inmobiliaria, construido con React en el frontend y Node.js en el backend. Me encargué de la parte frontend, diseñando e implementando una interfaz de usuario interactiva y funcional que permite a los usuarios navegar fácilmente por las propiedades disponibles, filtrar resultados y contactar a los agentes inmobiliarios. Utilicé herramientas como CSS, Bootstrap, y React Router para crear una experiencia de usuario fluida y responsiva, optimizada para dispositivos móviles y de escritorio."
-    ,
-    "title5": "MET - Panel de Análisis de Variables de Turbidez del Agua",
-    "description5": "El proyecto MET es un panel interactivo desarrollado en React con Firebase como base de datos, diseñado para analizar y visualizar las variables relacionadas con la turbidez del agua. Este panel permite a los usuarios monitorear en tiempo real los datos de turbidez, mostrar gráficos interactivos y generar informes sobre las condiciones del agua. Utilicé herramientas de gráficos avanzados, como Chart.js y D3.js, para representar los datos de manera clara y comprensible. Además, la aplicación está optimizada para ser utilizada de forma eficiente en dispositivos móviles y de escritorio, garantizando accesibilidad en cualquier entorno."
-  }
-  ,
-  "i": {
-    "i": "más información"
-  }
-  
-
 }
-
-
-  

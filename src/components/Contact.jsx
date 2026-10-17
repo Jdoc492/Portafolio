@@ -1,18 +1,19 @@
-import React, { useRef, useState } from "react";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import Astronauta from "../assets/img/astronauta.png";
 import { useTranslation } from "react-i18next";
-
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FiMail, FiSend } from "react-icons/fi";
+import { SectionHeader } from "./SectionHeader";
+import { links } from "../links";
 
 export const Contact = () => {
-
-  const { t, i18n } = useTranslation("global");
-  const [formSubmitted, setFormSubmitted] = useState(false);
+  const { t } = useTranslation("global");
   const refForm = useRef();
+  const [status, setStatus] = useState("idle"); // idle | sending | ok | error
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    setStatus("sending");
 
     const serviceID = "service_0fn0mbk";
     const templateID = "template_s8dx3cn";
@@ -20,77 +21,61 @@ export const Contact = () => {
 
     emailjs
       .sendForm(serviceID, templateID, refForm.current, apiKey)
-      .then((result) => {
-        console.log(result.text);
-        refForm.current.reset(); // Resetear el formulario después de enviar con éxito
-        setFormSubmitted(true);
+      .then(() => {
+        refForm.current.reset();
+        setStatus("ok");
       })
-      .catch((error) => console.error(error));
+      .catch((error) => {
+        console.error(error);
+        setStatus("error");
+      });
   };
 
   return (
-    <>
-      <section id="contact" className="bannerj">
-        <Container>
-        <h2>{t("footer.Contact")}</h2>
-          <div className="divContact">
-          <Row>
-            <Col xs={12} md={5} xl={5}>
-              <img src={Astronauta} alt="Astronauta" />
-            </Col>
-            <Col xs={12} md={7} xl={7}>
-             
-              <Form ref={refForm} className="form" onSubmit={handleSubmit}>
-                <Form.Group controlId="formName">
-                  <Form.Label>{t("footer.name")}</Form.Label>
-                  <Form.Control
-                    type="text"
-                    name="username"
-                    placeholder={t("footer.d-name")}
-                    required
-                  />
-                </Form.Group>
-                <Form.Group controlId="formEmail">
-                  <Form.Label>{t("footer.email")}</Form.Label>
-                  <Form.Control
-                    type="email"
-                    name="email"
-                    placeholder={t("footer.d-email")}
-                    required
-                  />
-                </Form.Group>
-                <Form.Group controlId="formSubject">
-                  <Form.Label>{t("footer.Subject")}</Form.Label>
-                  <Form.Control
-                    type="text"
-                    name="subject"
-                    placeholder={t("footer.Subject")}
-                    required
-                  />
-                </Form.Group>
-                <Form.Group controlId="formMessage">
-                  <Form.Label>{t("footer.Description")}</Form.Label>
-                  <Form.Control
-                    as="textarea"
-                    name="message"
-                    placeholder={t("footer.d-d")}
-                    rows={3}
-                    required
-                  />
-                </Form.Group>
-                <p></p>
-                <Button variant="outline-light" type="submit">
-                {t("footer.send")}
-                </Button>
-              </Form>
-              {formSubmitted && (
-                <p className="text-success mt-3">Formulario enviado con éxito</p>
-              )}
-            </Col>
-          </Row>
+    <section className="section" id="contact">
+      <div className="container">
+        <SectionHeader eyebrow={t("contact.eyebrow")} title={t("contact.title")} />
+        <div className="contact">
+          <div className="contact__info" data-reveal>
+            <p>{t("contact.text")}</p>
+            <a className="contact__link" href={`mailto:${links.email}`}>
+              <FiMail /> {links.email}
+            </a>
+            <a className="contact__link" href={links.linkedin} target="_blank" rel="noreferrer">
+              <FaLinkedin /> LinkedIn
+            </a>
+            <a className="contact__link" href={links.github} target="_blank" rel="noreferrer">
+              <FaGithub /> GitHub
+            </a>
           </div>
-        </Container>
-      </section>
-    </>
+
+          <form ref={refForm} className="card contact__form" onSubmit={handleSubmit} data-reveal>
+            <div className="field-row">
+              <label className="field">
+                <span>{t("contact.name")}</span>
+                <input type="text" name="username" autoComplete="name" required />
+              </label>
+              <label className="field">
+                <span>{t("contact.email")}</span>
+                <input type="email" name="email" autoComplete="email" required />
+              </label>
+            </div>
+            <label className="field">
+              <span>{t("contact.subject")}</span>
+              <input type="text" name="subject" required />
+            </label>
+            <label className="field">
+              <span>{t("contact.message")}</span>
+              <textarea name="message" rows={5} required />
+            </label>
+            <button className="btn btn--primary" type="submit" disabled={status === "sending"}>
+              {status === "sending" ? t("contact.sending") : t("contact.send")} <FiSend />
+            </button>
+            {status === "ok" && <p className="form-msg form-msg--ok">{t("contact.ok")}</p>}
+            {status === "error" && <p className="form-msg form-msg--error">{t("contact.error")}</p>}
+          </form>
+        </div>
+      </div>
+    </section>
   );
 };

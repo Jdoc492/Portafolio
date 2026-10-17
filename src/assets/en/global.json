@@ -1,85 +1,172 @@
 {
-
-  "navBar" : {
-
-    "home": "Home",
+  "nav": {
+    "about": "About",
+    "experience": "Journey",
+    "skills": "Skills",
     "projects": "Projects",
-    "about":"About",
     "contact": "Contact",
-    "DownloadCV": "Download CV"
-
-  }
-  ,
-
-  "banner" : {
-
-    "Welcome to my Portfolio" : "Welcome to my Portfolio",
-    "Hi, I’m Jose Front-End Developer":"<Full Stack Developer/>",
-    "jose":"Hi, I’m Jose  "
-
-  }
-  ,
-
-
-  "skills" :{
-    "skills" : "skills",
-    "text-skills" : "Web development expert with strong skills in HTML, CSS, JavaScript and frameworks like React and Angular. Committed to excellence in problem solving and delivering quality solutions"
-  }
-  ,
-  "project":{
-    "projects": "Projects"
-  }
-  ,
-  "jose":{
-"Who is this Jose?": "Who is Jose? 👋",
-"text-jose": "I'm passionate about web development, always looking for dynamic and functional solutions that blend the latest technology with innovation. I specialize in React, JavaScript, and creating responsive interfaces, all aimed at optimizing processes and providing the best user experience. 🚀",
-"lets-talk": "Let's talk! 😊"
-
-  }
-  ,
-  "footer": {
-    "Contact": "Contact me!",
-    "name": "Name:",
-    "email": "Email:",
-    "Subject": "Subject:",
-    "Description": "Description:",
-    "send": "Send",
-    "d-name": "Enter your name here",
-    "d-email": "Enter your email here",
-    "d-subject": "Enter the subject here",
-    "d-d": "Enter the description here"
-}
-,
-
-  "job": {
-    "estudios": "Educational Background",
-    "titulo": "Technologist in Software Analysis and Development",
-    "abril": "April",
-    "junio": "June",
-    "experiencia": "Work Experience",
-    "titulojob": "Software Developer",
-    "octubre": "October"
-  }
-  ,
+    "cv": "Download CV"
+  },
+  "hero": {
+    "hello": "Hi, I'm",
+    "role": "Full Stack Developer",
+    "pitch": "Co-founder of Scale Labs and Full Stack developer at Universidad de la Costa. I build complete web platforms, from the API to the interface, with React, Laravel and Django, plus automations that improve real processes.",
+    "cta": "View projects",
+    "talk": "Let's talk",
+    "location": "Barranquilla, Colombia"
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "Building with purpose",
+    "p1": "I'm a Full Stack developer with 3+ years of experience, a Software Analysis and Development Technologist from SENA, and currently studying Systems Engineering at UNAD. Today I'm co-founder of Scale Labs, where we build custom software, and a Full Stack developer at Universidad de la Costa CUC.",
+    "p2": "I've worked across the whole development cycle: interface design in Figma, frontends in React and Angular, backends in PHP/Laravel and Python/Django, MySQL and Firebase databases, and automation with Apps Script and AppSheet.",
+    "stats": [
+      {
+        "value": "3+",
+        "label": "Years of experience"
+      },
+      {
+        "value": "10+",
+        "label": "Projects on GitHub"
+      },
+      {
+        "value": "20+",
+        "label": "Technologies"
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Journey",
+    "title": "Experience & education",
+    "items": [
+      {
+        "type": "work",
+        "role": "Co-Founder & Developer",
+        "org": "Scale Labs · Remote",
+        "date": "Jan 2025 — Present",
+        "current": true,
+        "desc": "Co-founder of a custom software development company. We design, build and scale platforms, management systems, automations and AI integrations for businesses that need to grow without losing what already works.",
+        "tags": []
+      },
+      {
+        "type": "work",
+        "role": "Full Stack Developer",
+        "org": "Universidad de la Costa CUC · Barranquilla",
+        "date": "Dec 2024 — Present",
+        "current": true,
+        "desc": "Full Stack development of applications and systems for the university, from the backend and APIs to the user interface.",
+        "tags": []
+      },
+      {
+        "type": "work",
+        "role": "Freelance Frontend Developer",
+        "org": "Self-employed · Remote",
+        "date": "Oct 2024 — Feb 2025",
+        "current": false,
+        "desc": "Dynamic, responsive interfaces with React, reusable components, performance optimization and REST API integration, working in Scrum teams from UI/UX designs. Latest project: the Invermax Inmobiliaria website.",
+        "tags": [
+          "React",
+          "Bootstrap",
+          "CSS",
+          "REST API",
+          "Scrum",
+          "Figma",
+          "Git"
+        ]
+      },
+      {
+        "type": "work",
+        "role": "Software Developer",
+        "org": "Nutresa · Pastas Comarrico S.A.S · Barranquilla",
+        "date": "Oct 2023 — Apr 2024",
+        "current": false,
+        "desc": "Requirements analysis, interface design, frontend development and testing in multidisciplinary teams. Built an interactive occupational health and safety risk map with real-time visualization, and a contractor activity planner that improved tracking and resource allocation.",
+        "tags": [
+          "Apps Script",
+          "AppSheet",
+          "JavaScript",
+          "React",
+          "HTML",
+          "CSS",
+          "Bootstrap"
+        ]
+      },
+      {
+        "type": "study",
+        "role": "B.S. in Systems Engineering",
+        "org": "Universidad Nacional Abierta y a Distancia — UNAD",
+        "date": "2025 — 2027 · In progress",
+        "current": true,
+        "desc": "Undergraduate degree in Systems Engineering, complementing professional experience with a solid foundation in software engineering, architecture and project management.",
+        "tags": []
+      },
+      {
+        "type": "study",
+        "role": "Software Analysis and Development Technologist",
+        "org": "Servicio Nacional de Aprendizaje — SENA",
+        "date": "Apr 2022 — Jun 2024",
+        "current": false,
+        "desc": "Training in software engineering, databases, web and mobile development. Academic projects including an inventory system, an e-commerce app and a Nequi clone in Kotlin.",
+        "tags": [
+          "PHP",
+          "MySQL",
+          "Kotlin",
+          "JavaScript",
+          "UML"
+        ]
+      }
+    ],
+    "now": "Current"
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "My tech stack",
+    "groups": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "data": "Data & mobile",
+      "tools": "Tools & methodologies"
+    }
+  },
   "projects": {
-    "title1": "Inventory System",
-    "description1": "I developed an Inventory System, a PHP application for efficient inventory management. This system allows for easy and effective recording, tracking, and managing of products. With an intuitive interface and robust functionalities, Inventory System facilitates updating stock levels, viewing inventory movements, and generating detailed reports. Ideal for companies looking to optimize their inventory control processes and ensure smooth and organized operations.",
-    "title2": "Risk Map",
-    "description2": "I developed an interactive map that revolutionized occupational safety and health management (SISO). By providing a real-time visualization of risks present in the company's activities, I facilitated proactive prevention and informed decision-making to mitigate risks. The implementation of technologies such as App Script and Bootstrap ensured a smooth and accessible user experience.",
-    "title3": "Order System",
-    "description3": "I developed a basic order system using Laravel, which allows users to create, edit, and delete orders, as well as view completed orders. This system optimizes order management, providing a centralized and easy-to-use platform for handling orders. The implementation of Bootstrap for an intuitive interface ensures a smooth user experience. This simplified solution improves operational efficiency and facilitates clear and precise control over the order lifecycle."
-    ,
-    "title4": "Real Estate Website",
-    "description4": "This project involves developing a website for a real estate company, built with React on the frontend and Node.js on the backend. I was responsible for the frontend, designing and implementing an interactive and functional user interface that allows users to easily browse available properties, filter results, and contact real estate agents. I used tools like CSS, Bootstrap, and React Router to create a smooth and responsive user experience, optimized for both mobile and desktop devices."
-    ,
-    "title5": "MET - Water Turbidity Variables Analysis Dashboard",
-    "description5": "The MET project is an interactive dashboard developed in React with Firebase as the backend, designed to analyze and visualize the variables related to water turbidity. This dashboard allows users to monitor real-time turbidity data, display interactive charts, and generate reports on water conditions. I used advanced charting tools like Chart.js and D3.js to present the data in a clear and understandable way. Additionally, the application is optimized for efficient use on both mobile and desktop devices, ensuring accessibility in any environment."
+    "eyebrow": "Portfolio",
+    "title": "Featured projects",
+    "code": "Code",
+    "live": "Live site",
+    "more": "See all my repositories on GitHub",
+    "items": [
+      {
+        "title": "Real Estate Website",
+        "desc": "Website for a real estate agency with a property catalog, filters and agent contact. I owned the frontend: interactive UI, routing and responsive design."
+      },
+      {
+        "title": "MET — Water turbidity dashboard",
+        "desc": "Real-time dashboard to analyze water turbidity variables, with interactive charts and reports on water conditions."
+      },
+      {
+        "title": "Inventory System",
+        "desc": "Application to register, track and manage products: stock levels, inventory movements and detailed reports."
+      },
+      {
+        "title": "Order Management System",
+        "desc": "Manages the order lifecycle: create, edit, delete and review orders from a single centralized platform."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Have a project in mind?",
+    "text": "I'm open to new job opportunities and collaborations. Send me a message and I'll get back to you as soon as possible.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending…",
+    "ok": "Message sent! I'll get back to you soon.",
+    "error": "Couldn't send it. Please email me directly."
+  },
+  "footer": {
+    "made": "Designed and built by Jose Ochoa"
   }
-  ,
-  "i": {
-    "i": "more information"
-  }
-
 }
-  
-  

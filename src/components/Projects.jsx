@@ -1,84 +1,79 @@
-import { Container, Row, Col } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/inventory.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/sp.jpg";
-import projImg4 from "../assets/img/proyecto4.png";
-import projImg5 from "../assets/img/proyectos5.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
 import { useTranslation } from "react-i18next";
+import { FaGithub } from "react-icons/fa";
+import { FiArrowUpRight, FiExternalLink } from "react-icons/fi";
+import imgInmobiliaria from "../assets/img/proyecto4.png";
+import imgMet from "../assets/img/proyectos5.png";
+import imgInventory from "../assets/img/inventory.png";
+import imgPedidos from "../assets/img/sp.jpg";
+import { SectionHeader } from "./SectionHeader";
+import { links } from "../links";
 
-export const Projects = () => {
-
-  const { t, i18n } = useTranslation("global");
-  const projects = [
-    
-    {
-      title: t("projects.title4"),
-      description:t("projects.description4") ,
-      technologies: [ "Node","React","Javascript", "HTML","CSS","Bootstrap"],
-      imgUrl: projImg4,
-      urlDestino: "https://invermaxinmobiliaria.co/"
+// Datos fijos de cada proyecto; títulos y descripciones vienen de las traducciones (mismo orden)
+const projects = [
+  {
+    img: imgInmobiliaria,
+    tech: ["React", "Node.js", "JavaScript", "CSS", "Bootstrap"],
+    live: "https://invermaxinmobiliaria.co/",
   },
-    {
-        title: t("projects.title1"),
-        description:t("projects.description1") ,
-        technologies: ["PHP","Javascript", "HTML", "CSS", "Bootstrap","AJAX","MYSQL"],
-        imgUrl: projImg1,
-        urlDestino: "https://github.com/Jdoc492/Inventario-proyecto-SENA"
-    },
-    {
-      title: t("projects.title5"),
-      description:t("projects.description5") ,
-      technologies: [ "firebase","React","Javascript", "HTML","CSS","Bootstrap","librerias de Graficas"],
-      imgUrl: projImg5,
-      urlDestino: "https://github.com/Jdoc492/MET"
+  {
+    img: imgMet,
+    tech: ["React", "Firebase", "Chart.js", "JavaScript"],
+    repo: "https://github.com/Jdoc492/MET",
   },
-    {
-      title: t("projects.title3"),
-      description:t("projects.description3") ,
-      technologies: [ "Laravel","PHP","Javascript", "HTML","CSS","Bootstrap"],
-      imgUrl: projImg3,
-      urlDestino: "https://github.com/Jdoc492/Sistema-de-Pedidos"
-  }
-
+  {
+    img: imgInventory,
+    tech: ["PHP", "MySQL", "JavaScript", "AJAX", "Bootstrap"],
+    repo: "https://github.com/Jdoc492/Inventario-proyecto-SENA",
+  },
+  {
+    img: imgPedidos,
+    tech: ["Laravel", "PHP", "MySQL", "Bootstrap"],
+    repo: "https://github.com/Jdoc492/Sistema-de-Pedidos",
+  },
 ];
 
+export const Projects = () => {
+  const { t } = useTranslation("global");
+  const texts = t("projects.items", { returnObjects: true });
 
   return (
-    <section className="project" >
-      <Container>
-        <Row>
-          <Col size={12}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2 id="projects">{t("project.projects")}</h2>
-                <p></p>
-                <Row>
-                        {
-                          projects.map((project, index) => {
-                            return (
-                              <>
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                                <p></p>
-                                
-                              </>
-                            )
-                          })
-                        }
-                      </Row>
-              </div>}
-            </TrackVisibility>
-          </Col>
-        </Row>
-      </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+    <section className="section" id="projects">
+      <div className="container">
+        <SectionHeader eyebrow={t("projects.eyebrow")} title={t("projects.title")} />
+        <div className="projects">
+          {projects.map((project, i) => (
+            <article className="card project" key={texts[i].title} data-reveal>
+              <div className="project__media">
+                <img src={project.img} alt={texts[i].title} loading="lazy" />
+              </div>
+              <div className="project__body">
+                <h3>{texts[i].title}</h3>
+                <p>{texts[i].desc}</p>
+                <ul className="tags">
+                  {project.tech.map((tech) => (
+                    <li key={tech}>{tech}</li>
+                  ))}
+                </ul>
+                <div className="project__links">
+                  {project.live && (
+                    <a href={project.live} target="_blank" rel="noreferrer">
+                      <FiExternalLink /> {t("projects.live")}
+                    </a>
+                  )}
+                  {project.repo && (
+                    <a href={project.repo} target="_blank" rel="noreferrer">
+                      <FaGithub /> {t("projects.code")}
+                    </a>
+                  )}
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+        <a className="projects__more" href={`${links.github}?tab=repositories`} target="_blank" rel="noreferrer">
+          {t("projects.more")} <FiArrowUpRight />
+        </a>
+      </div>
     </section>
-  )
-}
+  );
+};
