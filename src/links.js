@@ -1,4 +1,4 @@
-import cvPDF from "./assets/JOSEOCHOAPF.pdf";
+import cvPDF from "./assets/Jose-Ochoa-CV.pdf";
 
 export const links = {
   linkedin: "https://www.linkedin.com/in/jose-ochoa-cairoza-8b7003244",

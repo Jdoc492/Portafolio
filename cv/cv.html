@@ -1,0 +1,176 @@
+<!doctype html>
+<!-- Fuente de la hoja de vida. Para regenerar el PDF: abrir en Edge/Chrome > Imprimir > Guardar como PDF (Carta, sin encabezados), o usar cv/build-cv.ps1 -->
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Jose Ochoa Cairoza — Hoja de vida</title>
+<style>
+  @page { size: Letter; margin: 0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 9.3pt;
+    line-height: 1.36;
+    color: #1f2937;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .page { padding: 0.42in 0.55in 0.35in; }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 3px solid #0ea5e9;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+  }
+  h1 { font-size: 24pt; margin: 0; letter-spacing: -0.5px; color: #0f172a; line-height: 1.1; }
+  .role { font-size: 12pt; font-weight: 600; color: #0284c7; margin-top: 2px; }
+  .contact { text-align: right; font-size: 8.8pt; color: #475569; line-height: 1.55; }
+  .contact a { color: #475569; text-decoration: none; }
+  h2 {
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    color: #0f172a;
+    margin: 10px 0 5px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  p { margin: 0; }
+  .job { margin-bottom: 6px; break-inside: avoid; }
+  .job-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .job-title { font-weight: 700; color: #0f172a; font-size: 10.2pt; }
+  .job-org { color: #0369a1; font-weight: 600; }
+  .date { color: #64748b; font-size: 8.8pt; white-space: nowrap; }
+  ul { margin: 3px 0 0; padding-left: 16px; }
+  li { margin: 1px 0; }
+  .tech { color: #64748b; font-size: 8.6pt; margin-top: 2px; }
+  .tech b { color: #475569; }
+  .skills { display: grid; grid-template-columns: 128px 1fr; gap: 3px 10px; }
+  .skills dt { font-weight: 700; color: #0f172a; }
+  .skills dd { margin: 0; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div>
+      <h1>Jose Ochoa Cairoza</h1>
+      <div class="role">Desarrollador Full Stack</div>
+    </div>
+    <div class="contact">
+      Barranquilla, Colombia · 317 639 2440<br />
+      <a href="mailto:joseochoacz@gmail.com">joseochoacz@gmail.com</a><br />
+      <a href="https://www.linkedin.com/in/jose-ochoa-cairoza-8b7003244">linkedin.com/in/jose-ochoa-cairoza-8b7003244</a><br />
+      <a href="https://jdoc492.github.io/Portafolio/">jdoc492.github.io/Portafolio</a> · <a href="https://github.com/Jdoc492">github.com/Jdoc492</a>
+    </div>
+  </header>
+
+  <h2>Perfil profesional</h2>
+  <p>
+    Desarrollador Full Stack con más de 3 años de experiencia construyendo aplicaciones web, sistemas de gestión y
+    automatizaciones de procesos. Cofundador de Scale Labs, empresa de software a medida, y desarrollador Full Stack en la
+    Universidad de la Costa CUC. Experiencia de punta a punta: análisis de requisitos, diseño de interfaces, frontends en
+    React, backends y APIs REST en PHP/Laravel y Python/Django, bases de datos y despliegue. Trabajo bajo metodología Scrum
+    en equipos multidisciplinarios, con foco en código limpio, buen rendimiento y soluciones que generan valor real.
+  </p>
+
+  <h2>Experiencia laboral</h2>
+
+  <div class="job">
+    <div class="job-head">
+      <div><span class="job-title">Co-Founder &amp; Developer</span> · <span class="job-org">Scale Labs</span> · Remoto</div>
+      <span class="date">Ene 2025 — Actualidad</span>
+    </div>
+    <ul>
+      <li>Cofundador de una empresa de desarrollo de software a medida para empresas en crecimiento.</li>
+      <li>Diseño, construcción y escalamiento de plataformas web, sistemas de gestión, automatizaciones e integraciones con IA.</li>
+      <li>Acompañamiento del cliente de punta a punta: levantamiento de requisitos, arquitectura, desarrollo y entrega.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div><span class="job-title">Desarrollador Full Stack</span> · <span class="job-org">Universidad de la Costa CUC</span> · Barranquilla</div>
+      <span class="date">Dic 2024 — Actualidad</span>
+    </div>
+    <ul>
+      <li>Desarrollo Full Stack de aplicaciones y sistemas para la universidad, desde el backend y las APIs hasta la interfaz de usuario.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div><span class="job-title">Frontend Developer Freelancer</span> · <span class="job-org">Autónomo</span> · Remoto</div>
+      <span class="date">Oct 2024 — Feb 2025</span>
+    </div>
+    <ul>
+      <li>Interfaces dinámicas y responsivas con React, Bootstrap y CSS; componentes reutilizables y optimización de rendimiento.</li>
+      <li>Integración de APIs REST e implementación de diseños UI/UX en equipos Scrum. Proyecto destacado: sitio web de Invermax Inmobiliaria.</li>
+    </ul>
+    <p class="tech"><b>Tecnologías:</b> React, JavaScript, Bootstrap, CSS, API REST, Figma, Git/GitHub</p>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <div><span class="job-title">Desarrollador de Software</span> · <span class="job-org">Grupo Nutresa — Pastas Comarrico S.A.S</span> · Barranquilla</div>
+      <span class="date">Oct 2023 — Abr 2024</span>
+    </div>
+    <ul>
+      <li>Mapa de Riesgos interactivo para SST con visualización en tiempo real: mejoró en un 30% la prevención de riesgos y optimizó los protocolos de seguridad en un 25%.</li>
+      <li>Planificador de Actividades de Contratistas: +40% de eficiencia en la asignación de recursos y +20% en transparencia y seguimiento.</li>
+      <li>Análisis de requisitos, diseño de interfaces, desarrollo frontend y pruebas de calidad en equipos multidisciplinarios.</li>
+    </ul>
+    <p class="tech"><b>Tecnologías:</b> Apps Script, AppSheet, JavaScript, React, HTML, CSS, Bootstrap</p>
+  </div>
+
+  <h2>Formación académica</h2>
+  <div class="job">
+    <div class="job-head">
+      <div><span class="job-title">Ingeniería de Sistemas</span> (en curso) · <span class="job-org">Universidad Nacional Abierta y a Distancia — UNAD</span></div>
+      <span class="date">2025 — 2027</span>
+    </div>
+  </div>
+  <div class="job">
+    <div class="job-head">
+      <div><span class="job-title">Tecnólogo en Análisis y Desarrollo de Software</span> · <span class="job-org">SENA</span></div>
+      <span class="date">2022 — 2024</span>
+    </div>
+  </div>
+  <div class="job">
+    <div class="job-head">
+      <div><span class="job-title">Bachiller Técnico con énfasis en Informática</span> · <span class="job-org">I.E.V.H de Soledad</span></div>
+      <span class="date">2021</span>
+    </div>
+  </div>
+
+  <h2>Habilidades técnicas</h2>
+  <dl class="skills">
+    <dt>Frontend</dt><dd>React, JavaScript, Angular, HTML5, CSS3, Bootstrap</dd>
+    <dt>Backend</dt><dd>PHP, Laravel, Python, Django, Node.js, APIs REST</dd>
+    <dt>Bases de datos</dt><dd>MySQL, PostgreSQL, Firebase</dd>
+    <dt>Móvil</dt><dd>Kotlin (Android)</dd>
+    <dt>Automatización</dt><dd>Google Apps Script, AppSheet</dd>
+    <dt>Herramientas</dt><dd>Git, GitHub, Figma, Trello, Slack, Canva · Metodología Scrum</dd>
+    <dt>Idiomas</dt><dd>Español (nativo) · Inglés (A2+)</dd>
+  </dl>
+
+  <h2>Habilidades blandas</h2>
+  <div class="two-col">
+    <ul>
+      <li>Liderazgo y emprendimiento</li>
+      <li>Resolución de problemas</li>
+      <li>Comunicación efectiva</li>
+    </ul>
+    <ul>
+      <li>Trabajo en equipo</li>
+      <li>Adaptabilidad y aprendizaje continuo</li>
+      <li>Gestión del tiempo</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
